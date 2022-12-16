@@ -1,4 +1,5 @@
 import React from 'react'
+import Botao from '../Botao'
 import fotosPopulares from './fotos-populares.json'
 import styles from './Populares.module.scss'
 
@@ -15,7 +16,7 @@ export default function Populares() {
                 )
             })}
             </ul>
-            <button>Ver mais fotos</button>
+            <Botao texto={"Veja mais fotos"}/> 
         </aside>
     )
 }
